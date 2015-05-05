@@ -3,9 +3,9 @@ $.getJSON('https://erebus-regner.c9.io/questions/random/', function(data){
     var template = Handlebars.compile(source);
     var html = template(data);
 
-    $('body').append(html);
+    $('#game-container').append(html);
 
-    $('li').click(function(){
+    $('.choice').click(function(){
         var selected_answer = $(this).attr('value');
         var correct_answer = String(data['answer']);
 
