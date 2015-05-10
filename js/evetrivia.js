@@ -1,4 +1,4 @@
-$.getJSON('https://erebus-regner.c9.io/questions/random/', function(data){
+$.getJSON('http://hg-erebus.duckdns.org/questions/random/', function(data){
     var source = $('#entry-template').html();
     var template = Handlebars.compile(source);
     var html = template(data);
