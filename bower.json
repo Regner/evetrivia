@@ -1,8 +1,0 @@
-{
-  "name": "evetrivia.github.io",
-  "dependencies": {
-    "jquery": "2.1.1",
-    "handlebars": "3.0.0",
-    "bootstrap": "v3.3.4"
-  }
-}
